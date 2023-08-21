@@ -182,17 +182,30 @@ nav ul li, nav ul li button{
     cursor: pointer;
  }
 
+ .bar{
+    display: none;
+ }
  
  
  @media screen and (max-width:900px) {
     nav img{
-        height: 30vh;
+        height: 15vh;
         padding-top: 20px;
     } 
+    .bar{
+        display: block;
+        color: white;
+    }
     nav ul li{
         display: none;
     }
     .shoe{
         display: none;
     }
+ }
+
+ @media screen and (max-width:430px) {
+        .img img:nth-child(1){
+            height: 170px;
+        }
  }
