@@ -124,6 +124,7 @@ nav ul li, nav ul li button{
     height: 100vh;
     width: 100vw;
     background-color: black;
+    overflow: hidden;
 }
 
 .row ,.row2{
